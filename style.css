@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+
+#showcase{
+    background-image: url('beach.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+   }
+
+#showcase h1{
+   
+    opacity: 1;
+    color:#EDEBEB;
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+#showcase p{
+    color:#926239;
+    background-color: #EDEBEB;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+#showcase .button{
+    font-size: 18px;
+    color: #926239;
+    text-decoration: none;
+    border:#926239 4px solid;
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 20px;
+
+}
+#showcase .button:hover{
+    background-color: #EDEBEB;
+
+}
+
+#section-a{
+    padding: 30px;
+    background-color: #926239;
+    color: #EDEBEB;
+    text-align: center;
+}
+
+#section-b{
+    padding: 30px;
+    background-color:#EDEBEB;
+    color:#926239;
+    text-align: center;
+}
+#section-c{
+    display: flex;
+    flex-direction: row;
+}
+#section-c .box-1 , #section-c .box-3{
+    padding: 30px;
+    background-color: #926239;
+    color: #EDEBEB;
+    text-align: center;
+}
+#section-c .box-2{
+    padding: 30px;
+    background-color:#EDEBEB;
+    color:#926239;
+    text-align: center;
+
+}
